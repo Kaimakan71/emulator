@@ -40,7 +40,11 @@ typedef struct {
 		};
 	};
 
+	word si;
+	word di;
+	word bp;
 	word sp;
+
 	word ip;
 
 	word cs;
